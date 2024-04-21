@@ -1,0 +1,24 @@
+{
+  "name": "@jsr/std__toml",
+  "version": "0.223.0",
+  "homepage": "https://jsr.io/@std/toml",
+  "type": "module",
+  "dependencies": {
+    "@jsr/std__collections": "^0.223.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./mod.d.ts",
+      "default": "./mod.js"
+    },
+    "./parse": {
+      "types": "./parse.d.ts",
+      "default": "./parse.js"
+    },
+    "./stringify": {
+      "types": "./stringify.d.ts",
+      "default": "./stringify.js"
+    }
+  },
+  "_jsr_revision": 8
+}
